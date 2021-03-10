@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Minecraft RCON</title>
+    <title>Minecraft リモートコンソール</title>
     <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
     <script type="text/javascript" src="static/js/jquery-1.12.0.min.js"></script>
@@ -16,15 +16,15 @@
 <body>
   <div class="container-fluid" id="content">
     <div class="alert alert-info" id="alertMessage">
-      Minecraft RCON
+      Minecraft リモートコンソール
     </div>
     <div id="consoleRow">
       <div class="panel panel-default" id="consoleContent">
         <div class="panel-heading">
-          <h3 class="panel-title pull-left"><span class="glyphicon glyphicon-console"></span> Console</h3>
+          <h3 class="panel-title pull-left"><span class="glyphicon glyphicon-console"></span> コンソール</h3>
           <div class="btn-group btn-group-xs pull-right">
-            <a class="btn btn-default" href="http://minecraft.gamepedia.com/Commands" target="_blank"><span class="glyphicon glyphicon-question-sign"></span><span class="hidden-xs"> Commands</span></a>
-            <a class="btn btn-default" href="http://www.minecraftinfo.com/idlist.htm" target="_blank"><span class="glyphicon glyphicon-info-sign"></span><span class="hidden-xs"> Items IDs</span></a>
+            <a class="btn btn-default" href="http://minecraft.gamepedia.com/Commands" target="_blank"><span class="glyphicon glyphicon-question-sign"></span><span class="hidden-xs"> コマンド</span></a>
+            <a class="btn btn-default" href="http://www.minecraftinfo.com/idlist.htm" target="_blank"><span class="glyphicon glyphicon-info-sign"></span><span class="hidden-xs"> アイテム ID</span></a>
           </div>
         </div>
         <div class="panel-body">
@@ -38,8 +38,8 @@
         <div id="txtCommandResults"></div>
         <input type="text" class="form-control" id="txtCommand" />
         <div class="input-group-btn">
-          <button type="button" class="btn btn-primary" id="btnSend"><span class="glyphicon glyphicon-send"></span><span class="hidden-xs"> Send</span></button>
-          <button type="button" class="btn btn-warning" id="btnClearLog"><span class="glyphicon glyphicon-erase"></span><span class="hidden-xs"> Clear</span></button>
+          <button type="button" class="btn btn-primary" id="btnSend"><span class="glyphicon glyphicon-send"></span><span class="hidden-xs"> 送信</span></button>
+          <button type="button" class="btn btn-warning" id="btnClearLog"><span class="glyphicon glyphicon-erase"></span><span class="hidden-xs"> クリア</span></button>
         </div>
       </div>
     </div>
